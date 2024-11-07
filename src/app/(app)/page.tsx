@@ -60,7 +60,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="text-center p-4 md:p-6 bg-gray-900 text-white">
-        © 2024 Mystery Wire. All rights reserved. Owned by{" "}
+        © 2024 Anonymous Message. All rights reserved. Owned by{" "}
         <span style={{ fontWeight: "bold", fontStyle: "italic" }}>
           Team Sahaayak - Aadiya, Advait, Anshika, <Link
                         target="_blank"
