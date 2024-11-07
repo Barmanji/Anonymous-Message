@@ -64,7 +64,7 @@ export default function Home() {
         <span style={{ fontWeight: "bold", fontStyle: "italic" }}>
           Team Sahaayak - Aadiya, Advait, Anshika, <Link
                         target="_blank"
-                        href="https://barmanji.vercel.app/"
+                        href="https://ajaybarman.vercel.app/"
                         className="duration-500 hover:text-zinc-300"
                     >
                         Ajay Barman{" "}
