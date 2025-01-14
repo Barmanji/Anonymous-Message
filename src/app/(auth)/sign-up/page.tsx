@@ -98,8 +98,8 @@ export default function SignUpForm() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-800">
-      <div className="w-full max-w-md p-8 space-y-8 bg-gray-700 rounded-lg shadow-md">
+    <div className="flex justify-center items-center min-h-screen bg-gray-900">
+      <div className="w-full max-w-md p-8 space-y-8 bg-gray-800 rounded-lg shadow-md">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-6">
             Join Anonymous Messenger
@@ -144,7 +144,7 @@ export default function SignUpForm() {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <Input {...field} name="email" />
-                  <p className='text-muted text-gray-400 text-sm'>We will send you a verification code</p>
+                  <p className='text-muted text-blue-100 text-sm'>We will send you a verification code</p>
                   <FormMessage />
                 </FormItem>
               )}
