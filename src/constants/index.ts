@@ -4,17 +4,17 @@ export const perks = [
     {
         icon: Icons.auth,
         title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        info: "Create your free account to get started with Anonymous Messanger.",
     },
     {
         icon: Icons.customize,
-        title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        title: "AI suggestions",
+        info: "Choose a message that fit your needs, and send in one click without login.",
     },
     {
         icon: Icons.launch,
-        title: "Launch",
-        info: "Publish your website and share it with the world.",
+        title: "Send and Receive Anonymously",
+        info: "This is a clear call to action that promotes the core features of the app",
     },
 ];
 
@@ -22,12 +22,12 @@ export const features = [
     {
         icon: Icons.bolt,
         title: "Fast Setup",
-        info: "Get your website up and running in minutes with our intuitive AI-powered builder.",
+        info: "Get your dashboard up and running in seconds with our intuitive AI-powered builder.",
     },
     {
         icon: Icons.palette,
-        title: "Customizable Templates",
-        info: "Choose from a variety of stunning templates and customize them to suit your brand.",
+        title: "Anonymous Sending",
+        info: "Send messages without revealing your identity using a unique ID.",
     },
     {
         icon: Icons.seo,
@@ -41,13 +41,13 @@ export const features = [
     },
     {
         icon: Icons.shop,
-        title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations.",
+        title: "Secure Communication",
+        info: "The platform uses secure protocols to protect your data both in transit and at rest",
     },
     {
         icon: Icons.server,
-        title: "Secure Hosting",
-        info: "Enjoy peace of mind with secure and reliable hosting for your website.",
+        title: "AI Improves Message Quality",
+        info: "Use AI suggestions to help you craft better messages.",
     },
 ];
 
@@ -113,33 +113,33 @@ export const bentoCards = [
 
 export const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
+        name: "Gill",
+        username: "@gill",
         body: "I've never seen anything like this before. It's amazing. I love it.",
     },
     {
-        name: "Jill",
-        username: "@jill",
+        name: "Anshika patel",
+        username: "@patelSaheb",
         body: "I don't know what to say. I'm speechless. This is amazing.",
     },
     {
-        name: "John",
-        username: "@john",
+        name: "Aditya yadav",
+        username: "@chinaar",
+        body: "Experience Secure, Anonymous Messaging with AI-Powered Suggestions.",
+    },
+    {
+        name: "Khusboo misra",
+        username: "@janeman",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Jane",
-        username: "@jane",
-        body: "I'm at a loss for words. This is amazing. I love it.",
-    },
-    {
-        name: "Jenny",
+        name: "Zack",
         username: "@jenny",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "James",
-        username: "@james",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Brijesh jindal",
+        username: "@jindaadmi",
+        body: "Use this Platform for Candid Conversations in a Secure Environment",
     },
 ];

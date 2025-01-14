@@ -42,16 +42,15 @@ const HomePage = () => {
 
                         <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
                             <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
-                                Build your next idea and ship your dream site
+Balancing Anonymity and Accountability
                             </h1>
                             <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                                Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
+Empowering users to connect and communicate in a secure and anonymous environment
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
-                                <Link href="#" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
+                                <Link href="/sign-in" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                                        ✨ {"  "} Start building your dream website now!
-                                    </p>
+                                        ✨ {"  "} Start Chatting!  </p>
                                     <Button size="sm" className="rounded-full hidden lg:flex border border-foreground/20">
                                         Get Started
                                         <ArrowRight className="w-4 h-4 ml-1" />
@@ -85,10 +84,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="The Process" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                                Send Amazing Messages.
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Turn your thoughts into reality in just 3 simple steps
                         </p>
                     </div>
                 </Container>
@@ -124,7 +123,7 @@ const HomePage = () => {
                             Discover our powerful features
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Astra offers a range of features to help you build a stunning website in no time
+                            We offers a range of features to help you choose and send messages in no time
                         </p>
                     </div>
                 </Container>
@@ -154,64 +153,7 @@ const HomePage = () => {
                 </Container>
             </Wrapper>
 
-            {/* pricing */}
-            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
-                <div className="hidden md:block absolute top-0 -right-0 w-72 h-72 bg-blue-500 rounded-full blur-[10rem] -z-10"></div>
-                <Container>
-                    <div className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="Pricing" />
-                        <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Unlock the right plan for your business
-                        </h2>
-                        <p className="text-muted-foreground mt-6">
-                            Choose the best plan for your business and start building your dream website today
-                        </p>
-                    </div>
-                </Container>
-                <Container className="flex items-center justify-center">
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
-                        {pricingCards.map((card) => (
-                            <Card
-                                key={card.title}
-                                className={cn("flex flex-col w-full border-neutral-700",
-                                    card.title === "Unlimited Saas" && "border-2 border-primary"
-                                )}
-                            >
-                                <CardHeader className="border-b border-border">
-                                    <span>
-                                        {card.title}
-                                    </span>
-                                    <CardTitle className={cn(card.title !== "Unlimited Saas" && "text-muted-foreground")}>
-                                        {card.price}
-                                    </CardTitle>
-                                    <CardDescription>
-                                        {card.description}
-                                    </CardDescription>
-                                </CardHeader>
-                                <CardContent className="pt-6 space-y-3">
-                                    {card.features.map((feature) => (
-                                        <div key={feature} className="flex items-center gap-2">
-                                            <Zap className="w-4 h-4 fill-primary text-primary" />
-                                            <p>{feature}</p>
-                                        </div>
-                                    ))}
-                                </CardContent>
-                                <CardFooter className="mt-auto">
-                                    <Link
-                                        href="#"
-                                        className={cn(
-                                            "w-full text-center text-primary-foreground bg-primary p-2 rounded-md text-sm font-medium",
-                                            card.title !== "Unlimited Saas" && "!bg-foreground !text-background"
-                                        )}
-                                    >
-                                        {card.buttonText}
-                                    </Link>
-                                </CardFooter>
-                            </Card>
-                        ))}
-                    </div>
-                </Container>
-            </Wrapper>
+
 
             {/* testimonials */}
             <Wrapper className="flex flex-col items-center justify-center py-12 relative">
@@ -223,8 +165,7 @@ const HomePage = () => {
                             What people are saying
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            See how Astra empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
-                        </p>
+                            See how Anonymous Messenger empowers businesses of all sizes. Here&apos;s what real people are saying.                        </p>
                     </div>
                 </Container>
                 <Container>
@@ -287,10 +228,10 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">
-                                From Idea to Launch <br /> Faster Than Ever
+                                From Message to Delivery
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Astra&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Craft Meaningful Interactions with AI-Driven Suggestions
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
@@ -306,26 +247,16 @@ const HomePage = () => {
                         <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between w-full px-4 md:px-8 rounded-lg lg:rounded-2xl border border-border/80 py-4 md:py-8">
                             <div className="flex flex-col items-start gap-4 w-full">
                                 <h4 className="text-xl md:text-2xl font-semibold">
-                                    Join our newsletter
+                                    Made By ABESITians
                                 </h4>
                                 <p className="text-base text-muted-foreground">
-                                    Be up to date with everything about AI builder
+                                    Aditya, Advait, Anshika, Ajay
                                 </p>
                             </div>
                             <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">
-                                <form action="#" className="flex flex-col md:flex-row items-center gap-2 w-full md:max-w-xs">
-                                    <Input
-                                        required
-                                        type="email"
-                                        placeholder="Enter your email"
-                                        className="focus-visible:ring-0 focus-visible:ring-transparent focus-visible:border-primary duration-300 w-full"
-                                    />
-                                    <Button type="submit" size="sm" variant="secondary" className="w-full md:w-max">
-                                        Subscribe
-                                    </Button>
-                                </form>
+
                                 <p className="text-xs text-muted-foreground">
-                                    By subscribing you agree with our{" "}
+                                   Make your dashboard!{" "}
                                     <Link href="#">
                                         Privacy Policy
                                     </Link>
