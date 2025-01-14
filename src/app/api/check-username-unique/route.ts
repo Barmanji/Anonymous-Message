@@ -7,6 +7,10 @@ const UsernameQuerySchema = z.object({
   username: usernameValidation,
 });
 
+// Use the new runtime declaration
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs';
+
 export async function GET(request: Request) {
   await dbConnect();
 
@@ -20,15 +24,15 @@ export async function GET(request: Request) {
 
     if (!result.success) {
       const usernameErrors = result.error.format().username?._errors || [];
-      return Response.json(
-        {
+      return new Response(
+        JSON.stringify({
           success: false,
           message:
             usernameErrors?.length > 0
               ? usernameErrors.join(', ')
               : 'Invalid query parameters',
-        },
-        { status: 400 }
+        }),
+        { status: 400, headers: { 'Content-Type': 'application/json' } }
       );
     }
 
@@ -40,30 +44,30 @@ export async function GET(request: Request) {
     });
 
     if (existingVerifiedUser) {
-      return Response.json(
-        {
+      return new Response(
+        JSON.stringify({
           success: false,
           message: 'Username is already taken',
-        },
-        { status: 200 }
+        }),
+        { status: 200, headers: { 'Content-Type': 'application/json' } }
       );
     }
 
-    return Response.json(
-      {
+    return new Response(
+      JSON.stringify({
         success: true,
         message: 'Username is unique',
-      },
-      { status: 200 }
+      }),
+      { status: 200, headers: { 'Content-Type': 'application/json' } }
     );
   } catch (error) {
     console.error('Error checking username:', error);
-    return Response.json(
-      {
+    return new Response(
+      JSON.stringify({
         success: false,
         message: 'Error checking username',
-      },
-      { status: 500 }
+      }),
+      { status: 500, headers: { 'Content-Type': 'application/json' } }
     );
   }
 }
