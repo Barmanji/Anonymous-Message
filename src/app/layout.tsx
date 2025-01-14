@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import "@/styles/globals.css";
+import { ClerkProvider } from '@clerk/nextjs';
 import AuthProvider from '../context/AuthProvider';
 import { Toaster } from '@/components/ui/toaster';
 
@@ -27,4 +29,5 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     </html>
   );
 }
+
 
