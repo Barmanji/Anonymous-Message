@@ -7,7 +7,6 @@ const UsernameQuerySchema = z.object({
   username: usernameValidation,
 });
 
-// Use the new runtime declaration
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 
