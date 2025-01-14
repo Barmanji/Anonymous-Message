@@ -48,7 +48,7 @@ importers:
         specifier: ^1.1.4
         version: 1.1.4(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-icons':
-        specifier: ^1.3.0
+        specifier: ^1.3.2
         version: 1.3.2(react@18.3.1)
       '@radix-ui/react-label':
         specifier: ^2.1.1
@@ -105,7 +105,7 @@ importers:
         specifier: 0.0.12
         version: 0.0.12(@types/react@18.3.18)(react@18.3.1)
       '@react-email/render':
-        specifier: ^0.0.9-canary.2
+        specifier: ^0.0.9
         version: 0.0.9
       '@react-three/drei':
         specifier: ^9.120.8
@@ -114,10 +114,10 @@ importers:
         specifier: ^8.17.12
         version: 8.17.12(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)
       ai:
-        specifier: ^2.2.30
+        specifier: ^2.2.37
         version: 2.2.37(react@18.3.1)(solid-js@1.9.4)(svelte@4.2.19)(vue@3.5.13(typescript@5.7.3))
       axios:
-        specifier: ^1.6.3
+        specifier: ^1.7.9
         version: 1.7.9
       bcryptjs:
         specifier: ^2.4.3
@@ -138,13 +138,13 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       dayjs:
-        specifier: ^1.11.10
+        specifier: ^1.11.13
         version: 1.11.13
       embla-carousel:
         specifier: ^8.5.2
         version: 8.5.2
       embla-carousel-autoplay:
-        specifier: ^8.0.0-rc17
+        specifier: ^8.5.2
         version: 8.5.2(embla-carousel@8.5.2)
       embla-carousel-react:
         specifier: ^8.5.2
@@ -159,16 +159,16 @@ importers:
         specifier: ^0.303.0
         version: 0.303.0(react@18.3.1)
       mongodb:
-        specifier: ^6.10.0
+        specifier: ^6.12.0
         version: 6.12.0
       mongoose:
-        specifier: ^8.0.3
+        specifier: ^8.9.4
         version: 8.9.4
       next:
         specifier: 14.0.4
         version: 14.0.4(@babel/core@7.24.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-auth:
-        specifier: ^4.24.5
+        specifier: ^4.24.11
         version: 4.24.11(next@14.0.4(@babel/core@7.24.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@6.9.16)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-themes:
         specifier: ^0.4.4
@@ -177,7 +177,7 @@ importers:
         specifier: ^6.9.16
         version: 6.9.16
       openai:
-        specifier: ^4.24.1
+        specifier: ^4.78.1
         version: 4.78.1(zod@3.24.1)
       react:
         specifier: ^18.3.1
@@ -189,7 +189,7 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-email:
-        specifier: ^3.0.2
+        specifier: ^3.0.6
         version: 3.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-hook-form:
         specifier: ^7.54.2
@@ -198,7 +198,7 @@ importers:
         specifier: ^2.1.7
         version: 2.1.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       resend:
-        specifier: ^4.0.1-alpha.0
+        specifier: ^4.0.1
         version: 4.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       sonner:
         specifier: ^1.7.1
@@ -216,7 +216,7 @@ importers:
         specifier: ^2.40.2
         version: 2.40.2(three@0.172.0)
       usehooks-ts:
-        specifier: ^2.9.1
+        specifier: ^2.16.0
         version: 2.16.0(react@18.3.1)
       vaul:
         specifier: ^1.1.2
@@ -229,31 +229,31 @@ importers:
         specifier: ^2.4.6
         version: 2.4.6
       '@types/node':
-        specifier: ^20
+        specifier: ^20.17.12
         version: 20.17.12
       '@types/react':
-        specifier: ^18
+        specifier: ^18.3.18
         version: 18.3.18
       '@types/react-dom':
-        specifier: ^18
+        specifier: ^18.3.5
         version: 18.3.5(@types/react@18.3.18)
       autoprefixer:
-        specifier: ^10.0.1
+        specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       eslint:
-        specifier: ^8
+        specifier: ^8.57.1
         version: 8.57.1
       eslint-config-next:
         specifier: 14.0.4
         version: 14.0.4(eslint@8.57.1)(typescript@5.7.3)
       postcss:
-        specifier: ^8
+        specifier: ^8.4.49
         version: 8.4.49
       tailwindcss:
-        specifier: ^3.3.0
+        specifier: ^3.4.17
         version: 3.4.17
       typescript:
-        specifier: ^5
+        specifier: ^5.7.3
         version: 5.7.3
 
 packages:
@@ -1752,6 +1752,9 @@ packages:
 
   '@types/webxr@0.5.20':
     resolution: {integrity: sha512-JGpU6qiIJQKUuVSKx1GtQnHJGxRjtfGIhzO2ilq43VZZS//f1h1Sgexbdk+Lq+7569a6EYhOWrUpIruR/1Enmg==}
+
+  '@types/webxr@0.5.21':
+    resolution: {integrity: sha512-geZIAtLzjGmgY2JUi6VxXdCrTb99A7yP49lxLr2Nm/uIK0PkkxcEi4OGhoGDO4pxCf3JwGz2GiJL2Ej4K2bKaA==}
 
   '@types/whatwg-url@11.0.5':
     resolution: {integrity: sha512-coYR071JRaHa+xoEvvYqvnIHaVqaYrLPbsufM9BF63HkwI5Lgmy2QR8Q5K/lYDYo5AK82wOvSOS0UsLTpTG7uQ==}
@@ -3603,6 +3606,10 @@ packages:
 
   postcss@8.4.49:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.1:
+    resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   potpack@1.0.2:
@@ -5929,7 +5936,7 @@ snapshots:
     dependencies:
       '@tweenjs/tween.js': 23.1.3
       '@types/stats.js': 0.17.3
-      '@types/webxr': 0.5.20
+      '@types/webxr': 0.5.21
       '@webgpu/types': 0.1.52
       fflate: 0.8.2
       meshoptimizer: 0.18.1
@@ -5937,6 +5944,8 @@ snapshots:
   '@types/webidl-conversions@7.0.3': {}
 
   '@types/webxr@0.5.20': {}
+
+  '@types/webxr@0.5.21': {}
 
   '@types/whatwg-url@11.0.5':
     dependencies:
@@ -6013,7 +6022,7 @@ snapshots:
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.4.49
+      postcss: 8.5.1
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.13':
@@ -7998,6 +8007,12 @@ snapshots:
       source-map-js: 1.2.1
 
   postcss@8.4.49:
+    dependencies:
+      nanoid: 3.3.8
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.1:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
