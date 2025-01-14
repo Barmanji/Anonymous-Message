@@ -115,7 +115,7 @@ export const reviews = [
     {
         name: "Gill",
         username: "@gill",
-        body: "I've never seen anything like this before. It's amazing. I love it.",
+        body: "Ek number bhai! keep it up, loved it!",
     },
     {
         name: "Anshika patel",
@@ -133,9 +133,9 @@ export const reviews = [
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Zack",
-        username: "@jenny",
-        body: "I'm at a loss for words. This is amazing. I love it.",
+        name: "Tyagi",
+        username: "@abhityagi",
+        body: "Bhot bhayankaar bhaijaan! Mja hi aagya dekh ke",
     },
     {
         name: "Brijesh jindal",
