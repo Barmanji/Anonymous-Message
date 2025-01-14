@@ -53,6 +53,7 @@
     "cmdk": "^1.0.4",
     "date-fns": "^4.1.0",
     "dayjs": "^1.11.10",
+    "embla-carousel": "^8.5.2",
     "embla-carousel-autoplay": "^8.0.0-rc17",
     "embla-carousel-react": "^8.5.2",
     "framer-motion": "^11.17.0",
