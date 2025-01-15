@@ -247,10 +247,12 @@ Empowering users to connect and communicate in a secure and anonymous environmen
                         <div className="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between w-full px-4 md:px-8 rounded-lg lg:rounded-2xl border border-border/80 py-4 md:py-8">
                             <div className="flex flex-col items-start gap-4 w-full">
                                 <h4 className="text-xl md:text-2xl font-semibold">
-                                    Made By ABESITians
+                                    Made By
                                 </h4>
                                 <p className="text-base text-muted-foreground">
-                                    Aditya, Advait, Anshika, Ajay
+                                    <Link href="https://barmanji.com">
+                                        Barmanji
+                                    </Link>
                                 </p>
                             </div>
                             <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">
